@@ -12,9 +12,7 @@
 	});
 </script>
 
-<!-- https://www.bing.com/search?q=weather+punturin&cvid=a291ea8b45ff4095b53b204f192d7608&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQLhhAMgYIAhAAGEAyBggDEC4YQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQLhhAMgYICBBFGDzSAQgyMDk0ajBqNKgCALACAA&FORM=ANAB01&PC=U531 -->
-<!--  -->
-<!--  -->
+<title>PSHS Weather Monitoring</title>
 <div class="">
 	<!-- <h1>For more detailed information:</h1> -->
 	<ul class="flex flex-row w-full">
