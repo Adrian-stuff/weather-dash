@@ -16,30 +16,27 @@
 <div class="">
 	<!-- <h1>For more detailed information:</h1> -->
 	<ul class="flex flex-row w-full">
-		<li class="p-5 bg-blue-200 hover:bg-blue-300 flex-grow text-center hover:cursor-pointer">
-			<a
-				class="font-sans text-2xl text-gray-800 heading"
-				target="_blank"
-				href="https://zoom.earth/maps/satellite/#view=14.7786,121.4294,7z/overlays=radar,wind"
-				>Zoom Earth Live Satellite</a
-			>
-		</li>
-		<li class="p-5 bg-blue-200 hover:bg-blue-300 flex-grow text-center hover:cursor-pointer">
-			<a
-				class="font-sans text-2xl text-gray-800 heading"
-				target="_blank"
-				href="https://www.msn.com/en-us/weather/maps/precipitation/in-Valenzuela,National-Capital-Region?loc=eyJsIjoiVmFsZW56dWVsYSIsInIiOiJOYXRpb25hbCBDYXBpdGFsIFJlZ2lvbiIsInIyIjoiTWV0cm8gTWFuaWxhIiwiYyI6IlBoaWxpcHBpbmVzIiwiaSI6IlBIIiwiZyI6ImVuLXVzIiwieCI6IjEyMC45OTkiLCJ5IjoiMTQuNzM0In0%3D&weadegreetype=C&ocid=ansmsnweather&zoom=7"
-				>MSN Weather Map</a
-			>
-		</li>
-		<li class="p-5 bg-blue-200 hover:bg-blue-300 flex-grow text-center hover:cursor-pointer">
-			<a
-				class="font-sans text-2xl text-gray-800 heading"
-				target="_blank"
-				href="https://www.msn.com/en-us/weather/forecast/in-Punturin%2C-Valenzuela,National-Capital-Region?loc=eyJsIjoiUHVudHVyaW4sIFZhbGVuenVlbGEiLCJyIjoiTmF0aW9uYWwgQ2FwaXRhbCBSZWdpb24iLCJyMiI6Ik1ldHJvIE1hbmlsYSIsImMiOiJQaGlsaXBwaW5lcyIsImkiOiJQSCIsInQiOjEwMiwiZyI6ImVuLXVzIiwieCI6IjEyMC45ODgiLCJ5IjoiMTQuNzM3OSJ9&ocid=ansmsnweather&weadegreetype=C"
-				>MSN Weather Forecast</a
-			>
-		</li>
+		<a
+			class="p-5 bg-blue-200 hover:bg-blue-300 flex-grow text-center hover:cursor-pointer"
+			target="_blank"
+			href="https://zoom.earth/maps/satellite/#view=14.7786,121.4294,7z/overlays=radar,wind"
+		>
+			<li class="font-sans text-2xl text-gray-800 heading">Zoom Earth Live Satellite</li>
+		</a>
+		<a
+			class="p-5 bg-blue-200 hover:bg-blue-300 flex-grow text-center hover:cursor-pointer"
+			target="_blank"
+			href="https://zoom.earth/maps/satellite/#view=14.7786,121.4294,7z/overlays=radar,wind"
+		>
+			<li class="font-sans text-2xl text-gray-800 heading">MSN Weather Map</li>
+		</a>
+		<a
+			class="p-5 bg-blue-200 hover:bg-blue-300 flex-grow text-center hover:cursor-pointer"
+			target="_blank"
+			href="https://zoom.earth/maps/satellite/#view=14.7786,121.4294,7z/overlays=radar,wind"
+		>
+			<li class="font-sans text-2xl text-gray-800 heading">MSN Weather Forecast</li>
+		</a>
 	</ul>
 </div>
 <div class="grid grid-cols-2 gap-2 p-2 [&>*]:border [&>*]:rounded-lg">
