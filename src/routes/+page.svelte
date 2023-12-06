@@ -16,32 +16,35 @@
 <!--  -->
 <!--  -->
 <div class="">
-	<h1>For more detailed information:</h1>
-	<ul>
-		<li>
+	<!-- <h1>For more detailed information:</h1> -->
+	<ul class="flex flex-row w-full">
+		<li class="p-5 bg-blue-200 hover:bg-blue-300 flex-grow text-center hover:cursor-pointer">
 			<a
-				class="underline text-blue-600"
-				href="https://www.msn.com/en-us/weather/maps/precipitation/in-Valenzuela,National-Capital-Region?loc=eyJsIjoiVmFsZW56dWVsYSIsInIiOiJOYXRpb25hbCBDYXBpdGFsIFJlZ2lvbiIsInIyIjoiTWV0cm8gTWFuaWxhIiwiYyI6IlBoaWxpcHBpbmVzIiwiaSI6IlBIIiwiZyI6ImVuLXVzIiwieCI6IjEyMC45OTkiLCJ5IjoiMTQuNzM0In0%3D&weadegreetype=C&ocid=ansmsnweather&zoom=7"
-				>msn weather map</a
-			>
-		</li>
-		<li>
-			<a
-				class="underline text-blue-600"
-				href="https://www.msn.com/en-us/weather/forecast/in-Punturin%2C-Valenzuela,National-Capital-Region?loc=eyJsIjoiUHVudHVyaW4sIFZhbGVuenVlbGEiLCJyIjoiTmF0aW9uYWwgQ2FwaXRhbCBSZWdpb24iLCJyMiI6Ik1ldHJvIE1hbmlsYSIsImMiOiJQaGlsaXBwaW5lcyIsImkiOiJQSCIsInQiOjEwMiwiZyI6ImVuLXVzIiwieCI6IjEyMC45ODgiLCJ5IjoiMTQuNzM3OSJ9&ocid=ansmsnweather&weadegreetype=C"
-				>msn weather forecast</a
-			>
-		</li>
-		<li>
-			<a
-				class="underline text-blue-600"
+				class="font-sans text-2xl text-gray-800 heading"
+				target="_blank"
 				href="https://zoom.earth/maps/satellite/#view=14.7786,121.4294,7z/overlays=radar,wind"
-				>zoom.earth live satellite</a
+				>Zoom Earth Live Satellite</a
+			>
+		</li>
+		<li class="p-5 bg-blue-200 hover:bg-blue-300 flex-grow text-center hover:cursor-pointer">
+			<a
+				class="font-sans text-2xl text-gray-800 heading"
+				target="_blank"
+				href="https://www.msn.com/en-us/weather/maps/precipitation/in-Valenzuela,National-Capital-Region?loc=eyJsIjoiVmFsZW56dWVsYSIsInIiOiJOYXRpb25hbCBDYXBpdGFsIFJlZ2lvbiIsInIyIjoiTWV0cm8gTWFuaWxhIiwiYyI6IlBoaWxpcHBpbmVzIiwiaSI6IlBIIiwiZyI6ImVuLXVzIiwieCI6IjEyMC45OTkiLCJ5IjoiMTQuNzM0In0%3D&weadegreetype=C&ocid=ansmsnweather&zoom=7"
+				>MSN Weather Map</a
+			>
+		</li>
+		<li class="p-5 bg-blue-200 hover:bg-blue-300 flex-grow text-center hover:cursor-pointer">
+			<a
+				class="font-sans text-2xl text-gray-800 heading"
+				target="_blank"
+				href="https://www.msn.com/en-us/weather/forecast/in-Punturin%2C-Valenzuela,National-Capital-Region?loc=eyJsIjoiUHVudHVyaW4sIFZhbGVuenVlbGEiLCJyIjoiTmF0aW9uYWwgQ2FwaXRhbCBSZWdpb24iLCJyMiI6Ik1ldHJvIE1hbmlsYSIsImMiOiJQaGlsaXBwaW5lcyIsImkiOiJQSCIsInQiOjEwMiwiZyI6ImVuLXVzIiwieCI6IjEyMC45ODgiLCJ5IjoiMTQuNzM3OSJ9&ocid=ansmsnweather&weadegreetype=C"
+				>MSN Weather Forecast</a
 			>
 		</li>
 	</ul>
 </div>
-<div class="grid grid-cols-2">
+<div class="grid grid-cols-2 gap-2 p-2 [&>*]:border [&>*]:rounded-lg">
 	<iframe
 		class="w-full overflow-hidden h-screen"
 		src="https://embed.windy.com/embed2.html?lat=14.662&lon=120.949&detailLat=14.650&detailLon=121.050&width=650&height=650&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=true&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1"
@@ -72,3 +75,10 @@
 	>
 	</iframe>
 </div>
+
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+	.heading {
+		font-family: 'Passion One', sans-serif;
+	}
+</style>
